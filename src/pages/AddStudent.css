@@ -1,0 +1,40 @@
+.add-student-container {
+  width: 450px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0px 0px 10px lightgray;
+}
+
+.add-student-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00aaff;
+}
+
+.form-box input,
+.form-box select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  font-size: 15px;
+}
+
+.form-box button {
+  width: 100%;
+  padding: 10px;
+  background: #00aaff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  opacity: 0.9;
+}

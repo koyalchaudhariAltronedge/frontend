@@ -1,0 +1,86 @@
+.home-page {
+  margin-top: 80px; 
+}
+/* HERO SECTION */
+.hero {
+
+  height: calc(100vh -80px);
+  background: url(https://institute.careerguide.com/wp-content/uploads/2020/04/Untitled-design-93-1024x576.jpg)center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 2px 6px black;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.hero p {
+  font-size: 22px;
+  margin-top: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero-btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  background-color: #00aaff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background-color: #0088cc;
+}
+
+/* FEATURES SECTION */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  width: 230px;
+  padding: 25px;
+  background: rgb(223, 221, 221);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* FOOTER */
+.footer {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: black;
+  padding: 8px;
+  text-align: center;
+  color: #4ddfff;
+  line-height: 8px 0;
+  font-size: 18px;
+  margin-top: auto;
+}

@@ -1,70 +1,126 @@
-# Getting Started with Create React App
+# 🎓 College Management System  
+Internship Project • 2026  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack web application built using *React (Frontend)* and *Spring Boot + MySQL (Backend)* to manage Students, Teachers, and Courses efficiently.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+### 👩‍🎓 Student Management
+- Add new students
+- Edit student details
+- Delete student
+- Search student
+- View all students
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 👨‍🏫 Teacher Management
+- Add teachers
+- Edit teacher details
+- Delete teachers
+- Search teacher
+- View all teachers
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 📚 Course Management
+- Add courses
+- Edit courses
+- Delete courses
+- View course list
 
-### `npm test`
+### 📞 Contact Page
+- Attractive UI
+- Form validation
+- Responsive design
+- Clean two-section layout (Form + Contact Info)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🖥️ Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### *Frontend*
+- React.js
+- Axios
+- CSS3
+- React Router
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### *Backend*
+- Spring Boot
+- REST API
+- MySQL Database
+- Hibernate (JPA)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📂 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+College-Management-System/
+│
+├── backend/          # Spring Boot API
+│   ├── src/main/java
+│   ├── src/main/resources
+│   └── pom.xml
+│
+├── frontend/         # React JS UI
+│   ├── src/components
+│   ├── src/pages
+│   ├── public
+│   └── package.json
+│
+└── README.md
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## ⚙️ How to Run the Project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### ▶️ *Backend (Spring Boot)*
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Open backend folder in any IDE (VS Code/STS/IntelliJ/Eclipse)
+2. Update the database in application.properties
+3. Run the project
+4. Server will start at:
+   
+   http://localhost:8080
+   
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### ▶️ *Frontend (React)*
 
-### Analyzing the Bundle Size
+1. Open terminal
+2. Go to the frontend folder
+3. Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+4. Start React app:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+App will run on:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+http://localhost:3000
+
+
+---
+
+## 🗄️ Database Details (MySQL)
+
+Tables created:
+
+- students
+- teachers
+- courses
+
+All tables managed automatically by Spring Boot + JPA.
+
+---
+
+
+

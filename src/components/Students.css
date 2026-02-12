@@ -1,0 +1,129 @@
+.students-page {
+  width: 100%;
+  margin: 0 ;
+  padding: 0 10px;
+  overflow-x: hidden;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  color: #00aaff;
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.student-table {
+  width: 100%;
+  max-width: 100%;
+  table-layout: auto;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 20px;
+  overflow-x: hidden;
+  margin: 0%;
+}
+
+.student-table th {
+  background: #00aaff;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  word-break: break-word;
+  font-size: 16px;
+  min-width: 200px;
+}
+
+.student-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+  min-width: 200px;
+  text-align: center;
+  word-break: break-word;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.student-table th:last-child {
+  display: flex;
+  text-align: center;
+  white-space: nowrap;
+  width: 130px;
+  max-width: 130px;
+  justify-content: center;
+  gap: 8px;
+}
+
+.student-table td:last-child {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  width: 130px;
+  max-width: 130px;
+}
+
+.student-table tr:hover {
+  background-color: #f1f5ff;
+  transition: 0.3s;
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.edit-btn {
+  background-color: #2196f3;
+  border: none;
+  padding: 8px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 90px;
+  padding: 6px 10px;
+  margin: 0 5px;
+  font-size: 13px;
+}
+
+.edit-btn:hover {
+  background-color: #1976d2;
+}
+
+.delete-btn {
+  background-color: #e53935;
+  border: none;
+  padding: 8px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 90px;
+  padding: 6px 10px;
+  margin: 0 5px;
+}
+
+.delete-btn:hover {
+  background-color:  rgb(167, 94, 72);
+}
+
+.search-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+
+.search-container input {
+  width: 250px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
